@@ -1,0 +1,51 @@
+@import url("sidebar.css");
+@import url("banner.css");
+@import url("menu.css");
+@import url("pages.css");
+@import url("navbar.css");
+@import url("userprofile.css");
+@import url("gallery.css");
+@import url("wish.css");
+@import url("login-form.css");
+
+@font-face {
+  font-family: 'Material Icons';
+  src: url('../assets/fonts/MaterialIcons-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: zh;
+  src: url(../assets/fonts/zh-cn.ttf);
+}
+@font-face {
+  font-family: nms;
+  src: url(../assets/fonts/NMSFuturaProBook_Kerned.ttf);
+}
+@font-face {
+  font-family: poppins;
+  src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.columns{
+  display: flex;
+}
+.main-content{
+  flex-grow: 3;
+  height: fit-content ;
+  overflow-x: hidden;
+}

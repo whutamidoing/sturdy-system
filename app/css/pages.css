@@ -1,0 +1,87 @@
+.actual-content {
+    background: #252525;
+    padding: 25px 0;
+}
+.article-banner {
+    width: 100%;
+    aspect-ratio: 16/8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+.article-content {
+    display: flex;
+    flex-direction: column;
+    padding: clamp(5px, 5%, 75px);
+    color: #fff;
+}
+.actual-content h1 {
+    font-family: montserrat, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-bottom: #404040 2px solid;
+}
+.actual-content h2 {
+    margin-bottom: 1rem;
+    font-family: montserrat, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.actual-content p {
+    font-family: montserrat, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    line-height: 1.15rem;
+}
+.article-content li{
+    font-family: montserrat, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    line-height: 1.15rem;
+    margin: 5px;
+}
+.top-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.top-wrapper img{
+    object-fit: cover;
+    width: 40%;
+}
+.image-wrapper-page{
+    padding: 25px
+}
+.image-wrapper-page > img {
+    width: 100%;
+    aspect-ratio: 16/5;
+    object-fit: cover;
+}
+
+.discover-articles-global {
+    background: linear-gradient(0deg, #ffffff11, #ffffff01, #ffffff00);
+    box-shadow: 0px 10px 30px 1px #000;
+    margin-bottom: 5%;
+}
+.discover-articles-global .card > div{
+    background: #353535 !important; 
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+.discover-articles-global button{
+    background: #353535;
+    border-radius: 10px;
+}
+
+@media (max-width:801px) {
+    .top-wrapper {
+        flex-direction: column;
+    }
+    .top-wrapper img {
+        width: 100%;
+    }
+    .image-wrapper-page {
+        padding: 0;
+    }
+}

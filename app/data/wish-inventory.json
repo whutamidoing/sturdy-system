@@ -1,0 +1,64 @@
+{
+    "item" : [
+        {
+         "name": "Furina",
+         "rarity" : 5,
+         "splashart": "../../assets/images/inventory/furina.webp"
+        },
+        {
+         "name": "Qiqi", 
+         "rarity" : 5, 
+         "splashart": "../../assets/images/inventory/qiqi.webp"
+        },
+        {
+         "name": "Favonius Codex",
+         "rarity": 4,
+         "splashart": "../../assets/images/inventory/favoniuscodex.webp"
+        },
+        {
+         "name": "Rust",
+         "rarity": 4,
+         "splashart": "../../assets/images/inventory/rust.webp"
+        },
+        {
+         "name": "The Stringless",
+         "rarity": 4, 
+         "splashart": "../../assets/images/inventory/stringless.webp"
+        },
+        {
+         "name": "Eye of Perception",
+         "rarity": 4, 
+         "splashart": "../../assets/images/inventory/eyeofperception.webp"
+        },
+        {
+         "name": "Sacrificial Fragment",
+         "rarity": 4, 
+         "splashart": "../../assets/images/inventory/sacrificialfragments.webp"
+        },
+        {
+         "name": "Cool Steel",
+         "rarity": 3, 
+         "splashart": "../../assets/images/inventory/cool-steel.webp"
+        },
+        { 
+         "name": "Slingshot",
+         "rarity": 3, 
+         "splashart": "../../assets/images/inventory/slingshot.webp"
+        },
+        {
+         "name": "Raven Bow",
+         "rarity": 3, 
+         "splashart": "../../assets/images/inventory/ravenbow.webp"
+        },
+        {
+         "name": "Emerald Orb",
+         "rarity": 3, 
+         "splashart": "../../assets/images/inventory/emeraldorb.webp"
+        },
+        {
+         "name": "Thrilling Tales of Dragon Slayers",
+         "rarity": 3, 
+         "splashart": "../../assets/images/inventory/thrillingtalesofdragonsslayers.webp"
+        }
+    ]
+}

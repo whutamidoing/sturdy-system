@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/App.css" />
+
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+    <title>gachaexpanded</title>
+    <script src="../js/menu.js"></script>
+  </head>
+  <body>
+    <div class="columns">
+      <nav
+        class="sidebar"
+        onmouseenter="toggleSidebar()"
+        onmouseleave="toggleSidebar()"
+      >
+        <div class="avatar-wrapper">
+          <div class="icon">
+            <img src="../assets/images/others/image.png" alt="User Avatar" />
+            <span class="icon-blob"></span>
+          </div>
+          <div class="user-details">
+            <span class="user-d">Username</span>
+            <span class="user-d">Email</span>
+          </div>
+        </div>
+        <div class="list-wrapper">
+          <!-- SCROLLERS -->
+          <ul class="scrollers">
+            <a href="./user.html">
+              <li class="i-link">
+                <span
+                  class="material-symbols-outlined"
+                  style="font-family: 'Material Icons'; color: white"
+                >
+                  home
+                </span>
+              </li>
+            </a>
+            <a href="./gallery.html">
+              <li class="i-link">
+                <span
+                  class="material-symbols-outlined"
+                  style="font-family: 'Material Icons'; color: white"
+                >
+                  photo_library
+                </span>
+              </li>
+            </a>
+            <a href="./user.html#Bookmarks">
+              <li class="i-link">
+                <span
+                  class="material-symbols-outlined"
+                  style="font-family: 'Material Icons'; color: white"
+                >
+                  bookmarks
+                </span>
+              </li>
+            </a>
+            <a
+              href="https://github.com/whutamidoing/solid-fishstick"
+              target="_blank"
+            >
+              <li class="i-link">
+                <span
+                  class="material-symbols-outlined"
+                  style="font-family: 'Material Icons'; color: white"
+                >
+                  code
+                </span>
+              </li>
+            </a>
+            <a
+              href="https://whutamidoing.github.io/solid-fishstick/"
+              target="_blank"
+            >
+              <li class="i-link">
+                <span
+                  class="material-symbols-outlined"
+                  style="font-family: 'Material Icons'; color: white"
+                >
+                  travel_explore
+                </span>
+              </li>
+            </a>
+          </ul>
+
+          <!-- LIST GROUP -->
+          <ul class="list-group">
+            <input
+              type="text"
+              name="searchbar"
+              id="searchbar"
+              placeholder="This Doesn't Work"
+            />
+            <li>
+              <a href="./wish.html">Wish Simulator</a>
+            </li>
+            <li>
+              <a href="#Top">Top</a>
+            </li>
+            <li>
+              <a href="#Titles">Titles</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main-content">
+        <div class="banner">
+          <h1 id="Top">Top-Featured</h1>
+          <div class="featured-wrapper">
+            <div class="video-container">
+              <iframe src="https://www.youtube.com/embed/6uT8wGtB3yQ"></iframe>
+            </div>
+            <div class="featured-description">
+              <span class="title-name">ELDEN RING Shadow of the Erdtree</span>
+              <div class="preview-pics">
+                <div class="preview-wrapper">
+                  <img src="" alt="" />
+                  <img src="" alt="" />
+                  <img src="" alt="" />
+                  <img src="" alt="" />
+                </div>
+              </div>
+              <div class="title-description">
+                THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished,
+                and be guided by grace to brandish the power of the Elden Ring
+                and become an Elden Lord in the Lands Between.
+              </div>
+            </div>
+          </div>
+          <!--Carousel-->
+          <div class="mind">
+            <button class="left" onclick="prevSlide()">
+              <span
+                class="material-symbols-outlined"
+                style="
+                  font-family: 'Material Icons';
+                  color: white;
+                  font-size: 48px;
+                "
+              >
+                chevron_right
+              </span>
+            </button>
+            <div class="carousel-wrapper">
+              <a href="./articles/eldenringdlc.html" data-discover="true"
+                ><div class="card card-0">
+                  <img src="" alt="Top 1" />
+                  <div>Top 1: <span>Elden Ring Mods</span></div>
+                </div>
+              </a>
+              <a href="/solid-fishstick/Page" data-discover="true"
+                ><div class="card card-1">
+                  <img src="" alt="Top 2" />
+                  <div>
+                    Top 2: <span>Zelda: Tears of the Kingdom Review</span>
+                  </div>
+                </div></a
+              >
+              <a href="/solid-fishstick/Page" data-discover="true"
+                ><div class="card card-2">
+                  <img src="" alt="Top 3" />
+                  <div>Top 3: <span>Genshin Impact New Characters</span></div>
+                </div>
+              </a>
+              <a href="/solid-fishstick/Page" data-discover="true"
+                ><div class="card card-2">
+                  <img src="" alt="Top 4" />
+                  <div>Top 4: <span>Genshin Impact 4.5 Update</span></div>
+                </div>
+              </a>
+            </div>
+            <button class="right" onclick="nextSlide()">
+              <span
+                class="material-symbols-outlined"
+                style="
+                  font-family: 'Material Icons';
+                  color: white;
+                  font-size: 48px;
+                "
+              >
+                chevron_right
+              </span>
+            </button>
+          </div>
+        </div>
+        <!--Menu-->
+        <div class="menu-wrapper">
+          <h1 id="Titles">Featured Titles</h1>
+          <div class="article-card">
+              <a href="./articles/roblox.html"
+                ><div class="cardImg">
+                  <img src="" alt="Roblox New Features" />
+                </div>
+                <div class="article-details">
+                  <h2 class="article-title">Roblox New Features</h2>
+                  <div class="platform-section">
+                    <span>Windows, Mobile</span>
+                  </div>
+                </div></a
+              >
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/App.css" />
+    <script src="../../js/carouselindependent.js"></script>
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+      <div class="banner-bar"></div>
+      <div class="link-bar">
+        <ul class="link-list">
+          <li><a href="../main.html" data-discover="true">Home</a></li>
+          <li>
+            <a href="../user.html#Bookmarks" data-discover="true">Favorites</a>
+          </li>
+          <li>
+            <a href="../wish.html" data-discover="true">Wish Simulator</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="actual-content">
+      <div
+        class="article-banner"
+        style="
+          background-image: url('https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1716740/header.jpg?t=1727384525');
+        "
+      ></div>
+      <div class="article-content">
+        <h1 class="article-title">Starfield Mods</h1>
+        <div class="top-wrapper">
+          <div>
+            <p>
+              It's finally happened! The Creation Kit for Starfield dropped as
+              part of Bethesda's announcements during the Xbox Showcase last
+              night, along with the first round of "Creations" available for
+              purchase and a preview of the upcoming Shattered Space DLC. In
+              this post, I'll give a little primer on the Creation Kit and
+              provide a few essential tips based on the latest changes to the
+              game.
+            </p>
+            <h2>What is the Creation Kit?</h2>
+            <p>
+              If you're new to Bethesda modding, the Creation Kit is the
+              official software development kit (SDK) which allows community
+              authors to create and share mods. There are equivalent Creation
+              Kits for Skyrim, Skyrim Special Edition and Fallout 4. It is the
+              evolution of the Construction Set used in Oblivion and Morrowind
+              or the Garden of Eden Creation Kit (G.E.C.K.) used in Fallout 3
+              and New Vegas.
+            </p>
+            <p>
+              The tool is a stripped-down version of the editor that Bethesda's
+              developers use to create the game and DLCs. It allows modders to
+              create and edit almost all existing game objects including quests,
+              items, locations and more. It's an incredibly powerful tool!
+            </p>
+            <p>
+              Right now, there is no public documentation for Starfield, but if
+              you want to understand some basic concepts of how the editor
+              works, you can check out the official Skyrim and Fallout 4 wiki
+              here.
+            </p>
+          </div>
+          <img
+            src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2024/01/best-starfield-mods-boba-fett.jpg"
+          />
+        </div>
+        <h2>What's new in Starfield's CK?</h2>
+        <p>
+          You can expect a more comprehensive list of new features on the CK
+          wiki but here are a few highlights:
+        </p>
+        <ul>
+          <li>
+            <p>
+              <strong>Unique vs Instanced Content</strong> - Content is now
+              organised into unique and instanced content depending on how it is
+              intended to be used. Unique content is for static locations (e.g.
+              a specific interior on a single planet), whereas instanced content
+              is generated at runtime and can be re-used around the galaxy (e.g.
+              the Starborn Temples are re-used on various planets).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Planet Content Manager (PCM)</strong> - A new system
+              similar to (but not replacing) Story Manager in previous games.
+              This controls the procedural content in planets and space cells.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Galaxy View</strong> - A new data management tool for
+              managing different stellar bodies, including stars, planets,
+              moons, asteroid belts, star stations, and generic orbitals.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Worldspace overlays</strong> - Instead of creating the
+              terrain for an entire planet, you will create mini-worldspaces
+              which are then stitched into the procedural terrain on the surface
+              of one or more planets.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Particle Editor</strong> - Create particle-based effects
+              using emitters in the Creation Engine.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Easier Navmesh</strong> - Creating navmesh is now as easy
+              as dropping down a marker in your interior (manual navmeshing is
+              still possible).
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>Render Window Layers</strong> - Managing large interiors
+              or exteriors is easier than ever with assignable layers to
+              show/hide different content.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong>PackIns (PI)</strong> - These replace Static Collections
+              and allow a group of objects to act as a single object in the
+              Render Window.
+            </p>
+          </li>
+          <li>
+            <p>
+              <strong
+                >And many great improvements to usability and stability compared
+                to Fallout 4 and Skyrim's CKs!</strong
+              >
+            </p>
+          </li>
+        </ul>
+        <p>
+          As a bonus, Bethesda has also included integrations for commonly used
+          tools including VSCode for Papyrus scripting and 3DSMax for 3D assets.
+        </p>
+        <div class="image-wrapper-page">
+          <img
+            src="https://www.denofgeek.com/wp-content/uploads/2023/06/starfield.jpg?fit=1600%2C900"
+          />
+        </div>
+        <h2>Reference</h2>
+        <p><strong>https://www.nexusmods.com/starfield/news/14993</strong></p>
+      </div>
+      <div class="discover-articles-global">
+        <h1>Dicover New Articles</h1>
+        <div class="mind">
+          <button class="left" onclick="prevSlide()">
+            <span
+              class="material-symbols-outlined"
+              style="
+                font-family: 'Material Icons';
+                color: white;
+                font-size: 48px;
+              "
+            >
+              chevron_right
+            </span>
+          </button>
+          <div class="carousel-wrapper">
+            <a href="./eldenringdlc.html" data-discover="true"
+              ><div class="card card-0">
+                <img
+                  src="https://i.ytimg.com/vi/Djtsw5k_DNc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&amp;rs=AOn4CLCJBY-G1qnyUFHpoFnI563WzLD4zQ"
+                  alt="Top 1"
+                />
+                <div>Top 1: <span>Elden Ring Mods</span></div>
+              </div>
+            </a>
+            <a href="./zeldatotk.html" data-discover="true"
+              ><div class="card card-1">
+                <img
+                  src="https://media.wired.com/photos/645d15509a01d944fee35de1/master/w_2560%2Cc_limit/Zelda-Tears-Of-The-Kingdom-Culture-TotK_3rd_54.jpg"
+                  alt="Top 2"
+                />
+                <div>
+                  Top 2: <span>Zelda: Tears of the Kingdom Review</span>
+                </div>
+              </div></a
+            >
+            <a href="./genshin" data-discover="true"
+              ><div class="card card-2">
+                <img
+                  src="../../assets/images/others/20250221231301.png"
+                  alt="Top 3"
+                />
+                <div>Top 3: <span>Genshin Impact New Characters</span></div>
+              </div>
+            </a>
+            <a href="./genshinupdate.html" data-discover="true"
+              ><div class="card card-2">
+                <img
+                  src="../../assets/images/others/476590787_122216339510035643_7352624109003515961_n.jpg"
+                  alt="Top 4"
+                />
+                <div>Top 4: <span>Genshin Impact 4.5 Update</span></div>
+              </div>
+            </a>
+          </div>
+          <button class="right" onclick="nextSlide()">
+            <span
+              class="material-symbols-outlined"
+              style="
+                font-family: 'Material Icons';
+                color: white;
+                font-size: 48px;
+              "
+            >
+              chevron_right
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
